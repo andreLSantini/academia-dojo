@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Academia Dojo Fight Clube</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="action_settings">Settings</string>
+</resources>
