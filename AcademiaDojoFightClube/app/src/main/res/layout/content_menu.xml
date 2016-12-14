@@ -13,4 +13,10 @@
     tools:context="com.santini.academiadojofightclube.menu"
     tools:showIn="@layout/app_bar_menu">
 
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
 </RelativeLayout>

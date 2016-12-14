@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.santini.academiadojofightclube.sobrefragment"
+    android:background="@android:color/darker_gray">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        tools:context="com.santini.academiadojofightclube.sobrefragment">
+
+        <TextView
+            android:text="Sobre a Dojo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:id="@+id/tx_sobreDojo"
+            android:textStyle="normal|bold|italic"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="A Origem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx_aorigem"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Fundada em 2010 na cidade de Maringá-PR por Rui Pedro Venancio, a princípio somente com o Jiu-Jitsu a academia Dojo Fight Club atualmente trabalha também com as modalidades de Muay thai, Judo e Treinamento Funcional."
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:id="@+id/tx_aorigem"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:paddingTop="3dp" />
+        <TextView
+            android:text="A Missão"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx_amissao"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="A academia tem como engajamento, melhorar a qualidade de vida das pessoas através da prática das Artes Marciais. Introduzir um estilo de vida saudável que irá proporcionar o bem estar físico, mental e social do seu aluno."
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:id="@+id/tx_amissao"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:paddingTop="3dp" />
+        <TextView
+            android:text="Os Valores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tx_avalores"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="10dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Alguns valores que os profissionais que atuam na Dojo colocam em prática no local de treinamento: Responsabilidade, Iniciativa, Excelência, Competência, Ética, Respeito, Inovação e Diferenciação."
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:id="@+id/tx_avalores"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:paddingTop="3dp" />
+    </LinearLayout>
+
+</FrameLayout>
